@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+<header class="masthead" style="background-image: url('static/assets/img/data.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>ALL BLOGS</h1>
+                    <span class="subheading">Here are all the Blogs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+             {% for post in post|reverse %}
+                    <div class="post-preview">
+                        <a href="/post/{{post.slug}}">
+                            <h2>{{ post.title }}</h2>
+                            <h3 class="post-subtitle">{{ post.tagline }}</h3>
+                        </a>
+                        <p class="post-meta">
+                            Posted by
+                            <a href="#!">{{post.name}}</a>
+                               on {{post.date}}
+                        </p>
+                    </div>
+                    {{post.content[0:100]}}....</a></li>
+                    <hr>
+             {% endfor %}
+
+            </div>
+        </div>
+    </div>
+ {% endblock %}               
