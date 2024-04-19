@@ -1,0 +1,25 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:12345@localhost/realcoder",
+        "prod_uri":"mysql://root:12345@localhost/realcoder",
+        "fb_url":"https://www.facebook.com/profile.php?",
+        "tw_url":"https://twitter.com/realcoder",
+        "gh_url":"https://github.com/realcoder",
+        "in_url":"https://instagram.com/being.bonafide",
+        "blog_name":"REAL CODERS",
+        "navtitle":"THEREALCODERS",
+        "title_name":"THEREALCODERS",
+        "copyright_content":"THEREALCODERS 2024",
+        "subheading":"Lets Technology Rule the world...",
+        "about_txt":"Hello, my name is SHIVAM KUMAR, and I am a computer science major. I have experience with several programming languages, including Java, Python,C and Javascript. I am particularly interested in Web Development,Artificial Intelligence and DSA,and I am currently working on a team project that involves developing an AI-powered chatbot.\n Last semester, I learned about the developement of a website using flask-Python Framework and API,Flask Sqlalchemy,etc. I learned a lot about web development processes and website hosting during that experience.",
+        "no_of_posts":2,
+        "admin_user":"realcoder",
+        "admin_pass":"coder123",
+        "user_user":"firstuser",
+        "user_pass":"user1",
+        "upload_location":"C:\\Users\\Lenovo\\Desktop\\Lets code\\flask_tut>"
+
+    }
+}
