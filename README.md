@@ -1,2 +1,2 @@
-Link to the project
+Link to the project:
 https://therealcoders.pythonanywhere.com
